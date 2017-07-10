@@ -1,6 +1,7 @@
 # Some essential MARKDOWN symbols(punctuation-based) you need to know
 
 ## <div style="color: blue">HEADER LEVELS</div>
+{::options parse_block_html="true" /}
 `# header level 1` 
 # header level 1 
 
