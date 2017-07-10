@@ -1,15 +1,20 @@
 # Some essential MARKDOWN symbols(punctuation-based) you need to know
 
-<u>HEADER LEVELS</u>
-=============  
+## <div style="color: blue">HEADER LEVELS</div>
 `# header level 1` 
-# header level 1  
+# header level 1 
+
+OR
+ 
 `header level 1`   
 `==============`  
 header level 1   
 ==============
 `## header level 2`
-## header level 2  
+## header level 2 
+ 
+OR
+ 
 `header level 2`   
 `--------------`  
 header level 2    
@@ -23,9 +28,7 @@ header level 2
 `###### header level 6`
 ###### header level 6 
 
-<u>FONT EMPHASIS</u>
-===============
-
+## <div style="color: blue">FONT EMPHASIS</div>
 whole word: emphasis(i.e. italic) & strong emphasis(i.e. bold)  
 `_italic_`  _italic_  
 `__bold__`  __bold__ 
@@ -34,8 +37,7 @@ part of a word: emphasis(i.e. italic) & strong emphasis(i.e. bold)
 `i*tali*c`  i*tali*c  
 `b**ol**d`  b**ol**d 
 
-<u>LINE OR PARAGRAPH WRAPPING</u>
-==========================
+## <div style="color: blue">LINE OR PARAGRAPH WRAPPING</div>
 This is a line.                      <= two spaces after end of line (preferred)  
 This is the second line.
 
@@ -51,8 +53,7 @@ This is a paragraph.                 <== insert one blank line in order to make 
 
 This is the second paragraph.
 
-<U>BLOCKQUOTE</u>
-==========
+## <div style="color: blue">BLOCKQUOTE</div>
 ```
 This is a famous quote:
 > An apple a day keeps the doctor away.
@@ -61,16 +62,14 @@ This is a famous quote:
 > An apple a day keeps the doctor away.
 
 
-<u>PREFORMATTED CODE (INLINE)</u>
-==========================
+## <div style="color: blue">PREFORMATTED CODE (INLINE)</div>
 Just embrace the code with a pair of backticks, e.g.  
 ```
 This is an `*emphasis*` text.
 ```  
 This is an `*emphasis*` text.
 
-<u>PREFORMATTED CODE (BLOCK)</u>
-=========================
+## <div style="color: blue">PREFORMATTED CODE (BLOCK)</div>
 You must insert four spaces or a TAB as follows:
 
 ```
@@ -89,8 +88,7 @@ You must insert four spaces or a TAB as follows:
 	</ol>	
 	<div>Hey Judy!</div>
 
-<u>CODE WITH SPECIFIC STYLING (BLOCK)</u>
-==================================
+## <div style="color: blue">CODE WITH SPECIFIC STYLING (BLOCK)</div>
 e.g. for C, the code needs to be inserted between \```c and \``` in order to produce appropriate highlighting:
 
 ```c
@@ -102,8 +100,7 @@ int main(void) {
 }
 ```
 
-<u>HYPERLINK</u>
-==========
+## <div style="color: blue">HYPERLINK</div>
 ```
 This is a [guide](http://abc.com) to markdown.
 ```  
