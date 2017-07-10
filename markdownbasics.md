@@ -1,17 +1,17 @@
-# Some essential markdown symbols(punctuation-based) you need to know
+# Some essential MARKDOWN symbols(punctuation-based) you need to know
 
 <u>HEADER LEVELS</u>
-=============
+=============  
 `# header level 1` 
 # header level 1  
 `header level 1`   
-`==============`
+`==============`  
 header level 1   
 ==============
 `## header level 2`
 ## header level 2  
 `header level 2`   
-`--------------`
+`--------------`  
 header level 2    
 --------------
 `### header level 3`
@@ -26,17 +26,17 @@ header level 2
 <u>FONT EMPHASIS</u>
 ===============
 
-whole word: emphasis & strong emphasis  
+whole word: emphasis(i.e. italic) & strong emphasis(i.e. bold)  
 `_italic_`  _italic_  
 `__bold__`  __bold__ 
 
-part of a word: emphasis & strong emphasis  
+part of a word: emphasis(i.e. italic) & strong emphasis(i.e. bold)  
 `i*tali*c`  i*tali*c  
 `b**ol**d`  b**ol**d 
 
 <u>LINE OR PARAGRAPH WRAPPING</u>
 ==========================
-This is a line.                      <= two spaces after end of line (preferred)
+This is a line.                      <= two spaces after end of line (preferred)  
 This is the second line.
 
    or
@@ -63,7 +63,7 @@ This is a famous quote:
 
 <u>PREFORMATTED CODE (INLINE)</u>
 ==========================
-Just embrace the code with a pair of backticks, e.g.
+Just embrace the code with a pair of backticks, e.g.  
 ```
 This is an `*emphasis*` text.
 ```  
