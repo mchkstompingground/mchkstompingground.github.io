@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Background Color</title>
+</head>
+<body>
+  <button onclick="chgColor()">Change Background Color at Random</button>
+  <script type="text/javascript">
+	function rndInt(n) {
+		return Math.floor(Math.random()*(n+1));
+	}
+	function chgColor() {
+		var rndColor = 'rgb(' + rndInt(255) + ',' + rndInt(255) + ',' + rndInt(255) + ')';
+		document.body.style.backgroundColor = rndColor;
+	}
+  </script>
+</body>
+</html>
