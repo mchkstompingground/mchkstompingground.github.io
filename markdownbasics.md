@@ -1,76 +1,104 @@
-# Some essential MARKDOWN symbols(punctuation-based) you need to know
+Some essential __MARKDOWN symbols__ (punctuation-based)  
+you need to know
 
-## HEADER LEVELS
-`# header level 1` 
+
+## __HEADER LEVELS 1 to 6__
+---
+
+    # header level 1
+
 # header level 1 
 
 OR
- 
-`header level 1`   
-`==============`  
+
+    header level 1   
+    ==============
+
 header level 1   
 ==============
-`## header level 2`
+
+    ## header level 2
+
 ## header level 2 
  
 OR
  
-`header level 2`   
-`--------------`  
-header level 2    
+    header level 2 
+    --------------
+
+header level 2
 --------------
-`### header level 3`
-### header level 3 
-`#### header level 4`
-#### header level 4 
-`##### header level 5`
-##### header level 5 
-`###### header level 6`
-###### header level 6 
 
-## FONT EMPHASIS
-whole word: emphasis(i.e. italic) & strong emphasis(i.e. bold)  
-`_italic_`  _italic_  
-`__bold__`  __bold__ 
+    ### header level 3
 
-part of a word: emphasis(i.e. italic) & strong emphasis(i.e. bold)  
-`i*tali*c`  i*tali*c  
-`b**ol**d`  b**ol**d 
+### header level 3
 
-## LINE OR PARAGRAPH WRAPPING
-This is a line.                      <= two spaces after end of line (preferred)  
+    #### header level 4
+
+#### header level 4
+
+    ##### header level 5
+
+##### header level 5
+
+    ###### header level 6
+
+###### header level 6
+
+## __FONT EMPHASIS__
+---
+
+Whole word: emphasis(i.e. italic) & strong emphasis(i.e. bold) : 
+ 
+`_emphasis_`  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_emphasis_  
+`__strong emphasis__`  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__strong emphasis__ 
+
+Part of a word: emphasis(i.e. italic) & strong emphasis(i.e. bold) :  
+
+`em*pha*sis`  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;em*pha*sis  
+`st**rong** em**pha**sis`&nbsp;st**rong** em**pha**sis 
+
+## __LINE OR PARAGRAPH WRAPPING__
+---
+
+This is a line. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<= There are __two spaces__ at the end of the line  
 This is the second line.
 
-   or
+or
 
-This is a line.\\\                    <== two back slashes after end of line  
+This is a line.\\\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<= There are __two backslashes__ at the end of the line  
 This is the second line.
 
-(N.B. One space / a return is not sufficient. At least two spaces or two back slashes are needed 
-      to make another line.)
+*(N.B. One space or one backslash is not sufficient. At least two spaces or two backslashes are needed to make another line.)*
 
-This is a paragraph.                 <== insert one blank line in order to make another paragraph
+This is a paragraph. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<= Insert **one blank line after the paragraph** in order to make another paragraph
 
 This is the second paragraph.
 
-## BLOCKQUOTE
-```
+## __BLOCKQUOTE__
+---
+
+    This is a famous quote:
+    > An apple a day keeps the doctor away.
+
 This is a famous quote:
-> An apple a day keeps the doctor away.
-```
-This is a famous quote:
+
 > An apple a day keeps the doctor away.
 
 
-## PREFORMATTED CODE (INLINE)
-Just embrace the code with a pair of backticks, e.g.  
-```
-This is an `*emphasis*` text.
-```  
+## __PREFORMATTED CODE (INLINE)__
+---
+
+Just embrace the code with __a pair of backticks__, e.g.
+
+    This is an `*emphasis*` text.
+
 This is an `*emphasis*` text.
 
-## PREFORMATTED CODE (BLOCK)
-You must insert four spaces or a TAB as follows:
+## __PREFORMATTED CODE (BLOCK)__
+---
+
+You must insert __four spaces__ or __a tab__ as follows:
 
 ```
 	<a>Hello World</a>	
@@ -88,8 +116,10 @@ You must insert four spaces or a TAB as follows:
 	</ol>	
 	<div>Hey Judy!</div>
 
-## CODE WITH SPECIFIC STYLING (BLOCK)
-e.g. for C, the code needs to be inserted between \```c and \``` in order to produce appropriate highlighting:
+## __CODE WITH SPECIFIC STYLING (BLOCK)__
+---
+
+e.g. for C, the code needs to be inserted between \```c and \``` in order to produce the corresponding highlighting effects:
 
 ```c
 #include <stdio.h>
@@ -100,10 +130,11 @@ int main(void) {
 }
 ```
 
-## HYPERLINK
-```
-This is a [guide](http://abc.com) to markdown.
-```  
+## __HYPERLINK__
+---
+
+    This is a [guide](http://abc.com) to markdown.
+
 This is a [guide](http://abc.com) to markdown.
 
 
