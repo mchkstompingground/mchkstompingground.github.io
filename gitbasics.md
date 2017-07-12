@@ -8,5 +8,5 @@ To save a snapshot of the stage as a commit with a message:
 To push commits from local branch to the remote repository:  
 `git push -u origin master`         
 
-To pull commits from the remote repository to local branch:
+To pull commits from the remote repository to local branch:  
 `git pull`
