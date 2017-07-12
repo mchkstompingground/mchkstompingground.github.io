@@ -119,17 +119,27 @@ You must insert __four spaces__ or __a tab__ as follows:
 ## __CODE WITH SPECIFIC STYLING (BLOCK)__
 ---
 
-e.g. for C, the code needs to be inserted between \```c and \``` in order to produce the corresponding highlighting effects:
+e.g. for C, the code needs to be arranged as follows:
+
+	```c
+	#include <stdio.h>
+
+	int main(void) {
+  	  printf("Hello C!\n");
+  	  return 0;
+	}
+	```
 
 ```c
 #include <stdio.h>
 
 int main(void) {
-	printf("Hello C!\n");
-	return 0;
+  printf("Hello C!\n");
+  return 0;
 }
 ```
 
+in order to produce the corresponding highlighting effects.
 ## __HYPERLINK__
 ---
 
