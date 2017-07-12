@@ -1,6 +1,4 @@
-## Essential MARKDOWN symbols (punctuation-based)  
-## you need to know
-
+## Essential MARKDOWN symbols (punctuation-based) you need to know
 
 ## __HEADER LEVELS 1 to 6__
 ---
